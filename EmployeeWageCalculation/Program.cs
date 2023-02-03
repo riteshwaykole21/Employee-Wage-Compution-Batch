@@ -10,10 +10,10 @@ namespace EmployeeWageCalculation
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome In Employee Compution ");
-            CheckAttendances EmpCheck = new CheckAttendances();
-            EmpCheck.Attendances();
+            Console.WriteLine("Welcome in Employee Wage Compution");
+            CheckAttendances Empcheck = new CheckAttendances();
+            Empcheck.Attendances();
             Console.ReadLine();
-        }
+         }
     }
 }
