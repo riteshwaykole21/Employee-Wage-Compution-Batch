@@ -14,6 +14,6 @@ namespace EmployeeWageCalculation
             CheckAttendances Empcheck = new CheckAttendances();
             Empcheck.Attendances();
             Console.ReadLine();
-         }
+        }
     }
 }
